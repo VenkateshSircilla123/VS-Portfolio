@@ -1,0 +1,271 @@
+import {
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  meta,
+  starbucks,
+  tesla,
+  shopify,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
+} from "../assets";
+
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "work",
+    title: "Work",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
+
+const services = [
+  {
+    title: "Full Stack Web Developer",
+    icon: web,
+  },
+  {
+    title: "Front End Developer",
+    icon: mobile,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  
+];
+
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+];
+
+const experiences = [
+  {
+    title: "Restaurent Application",
+    company_name: "",
+    icon: '/foodOrderAppLogo.png',
+    iconBg: "#383E56",
+    date: "March 2020 - April 2021",
+    points: [
+      "Convenience: This app makes it easy for people to order food from their favorite restaurants without having to leave their homes or offices",
+      "Variety: It offers a wide variety of food items to choose from, including pizzas, burgers, and pastas",
+      "Social integration: Allows users to log in and out using their Facebook or Google accounts, which makes it easy for them to use your app and share their experiences with their friends and family.",
+      "Customization: Allows users to add items to their cart and customize their orders to their liking",
+      "Accessibility: This app is fully responsive, which means that it can be used on any device, including smartphones, tablets, and laptops",
+      "And more..."
+    ],
+  },
+  {
+    title: "Fiverr Clone",
+    company_name: "",
+    icon: '/fiverr.png',
+    iconBg: "#E6DEDD",
+    date: "Jan 2021 - Feb 2022",
+    points: [
+      "It's a one-stop shop for finding and hiring freelancers. This app makes it easy for users to find qualified freelancers for a wide variety of tasks, from web design to writing to video editing",
+      "It's convenient and easy to use. Users can browse gigs, contact freelancers, and pay for services all within your app.",
+      "It's secure and reliable. Your app uses secure payment processing and data protection measures to keep users' information safe.",
+      "It has a built-in chat feature. This allows users to communicate directly with freelancers before and after they hire them.",
+      "It has a review system. This allows users to rate and review freelancers, which helps other users make informed decisions.",
+      "And more..."
+    ],
+  },
+  {
+    title: "Hotel Booking Application",
+    company_name: "",
+    icon: '/booking.png',
+    iconBg: "#383E56",
+    date: "Jan 2022 - Jan 2023",
+    points: [
+      "Convenience: This app makes easy for users to book hotels from their smartphones or tablets, from anywhere in the world.",
+      "Real-time room reservation system: This app allows users to book rooms in real time, so they can always find the best deals available.",
+      "Price filter functionality: This app allows users to filter hotels by price, so they can find hotels that fit their budget.",
+      "Fully responsive: This app is fully responsive, which means that it can be used on any device, including smartphones, tablets, and laptops.",
+      "And more..."
+    ],
+  },
+  {
+    title: "Netflix Clone",
+    company_name: "",
+    icon: '/netflix.png',
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Present",
+    points: [
+      "Search functionality: This app's search functionality allows users to easily find movies and TV shows that they want to watch.",
+      "Genre filters: This app's genre filters allow users to find movies and TV shows that match their interests.",
+      "Add to favorites: Your app's 'add to favorites' feature allows users to save movies and TV shows that they want to watch later.",
+      "Fetching data from API: Your app fetches data from an API, which allows you to keep your app's content up-to-date.",
+      "And more..."
+    ],
+  },
+];
+
+const testimonials = [
+  {
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "Sara Lee",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+];
+
+const projects = [
+  {
+    name: "Food delivary App",
+    description:
+      "Order your favorite food online with just a few clicks. We deliver from your favorite restaurants to your doorstep.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma(PostgreSql)",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: '/restaurantSS.png',
+    hostLink: "https://github.com/VenkateshSircilla123/VSRestaurantApp",
+    source_code_link: "https://github.com/VenkateshSircilla123/VSRestaurantApp",
+  },
+  {
+    name: "Netflix Clone",
+    description:
+      "Watch your favorite movies and TV shows online, anytime, anywhere. Create a personalized profile to discover new content you'll love.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: '/netflixSS.png',
+    hostLink: "https://vs-netflix-app.vercel.app/",
+    source_code_link: "https://github.com/VenkateshSircilla123/VSNetflixApp",
+  },
+  {
+    name: "Hotel Booking",
+    description:
+      "Find and book the perfect hotel for your next trip, all in one place. Compare prices, amenities, and reviews to get the best deal.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: '/bookingSS.png',
+    hostLink: "https://vsbookingapp.onrender.com",
+    source_code_link: "https://github.com/",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects };
