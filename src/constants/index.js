@@ -328,8 +328,9 @@ const projects = [
       },
     ],
     image: "/bookingSS.png",
-    hostLink: "https://vsbookingapp.onrender.com",
-    source_code_link: "https://github.com/",
+    hostLink: "https://vsbookingapp-frontend.onrender.com",
+    source_code_link:
+      "https://github.com/VenkateshSircilla123/VSBookingApp-Frontend",
   },
   {
     name: "Fiverr clone",
