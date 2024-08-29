@@ -287,28 +287,7 @@ const projects = [
     hostLink: "https://vs-restaurant-app.vercel.app/",
     source_code_link: "https://github.com/VenkateshSircilla123/VSRestaurantApp",
   },
-  {
-    name: "Netflix Clone",
-    description:
-      "Watch your favorite movies and TV shows online, anytime, anywhere. Create a personalized profile to discover new content you'll love.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "RestAPI",
-        color: "green-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "/netflixSS.png",
-    hostLink: "https://vs-netflix-app.vercel.app/",
-    source_code_link: "https://github.com/VenkateshSircilla123/VSNetflixApp",
-  },
+
   {
     name: "Hotel Booking",
     description:
@@ -353,6 +332,28 @@ const projects = [
     image: "/fiverrClone.png",
     hostLink: "https://fiver-clone-six.vercel.app/",
     source_code_link: "https://github.com/VenkateshSircilla123/fiver-clone",
+  },
+  {
+    name: "Netflix Clone",
+    description:
+      "Watch your favorite movies and TV shows online, anytime, anywhere. Create a personalized profile to discover new content you'll love.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RestAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/netflixSS.png",
+    hostLink: "https://vs-netflix-app.vercel.app/",
+    source_code_link: "https://github.com/VenkateshSircilla123/VSNetflixApp",
   },
   {
     name: "Responsive Admin Dashboard",
