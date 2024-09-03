@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -19,17 +19,26 @@ const ProjectCard = ({
   hostLink,
 }) => {
   return (
-    <div onClick={() => window.open(hostLink, "_blank")}>
-      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div
+      onClick={() => window.open(hostLink, "_blank")}
+      className="w-full md:w-[45%] lg:w-[32%]"
+    >
+      <motion.div
+        variants={
+          window.innerWidth > 400
+            ? fadeIn("up", "spring", index * 0.5, 0.75)
+            : ""
+        }
+      >
         <Tilt
           options={{
             max: 45,
             scale: 1,
             speed: 450,
           }}
-          className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+          className="bg-tertiary p-5 rounded-2xl"
         >
-          <div className="relative w-full h-[230px]">
+          <div className="relative h-[230px]">
             <img
               src={image}
               alt="project_image"
@@ -74,14 +83,14 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={window.innerWidth > 400 ? textVariant() : ""}>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          variants={window.innerWidth > 400 ? fadeIn("", "", 0.1, 1) : ""}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Following projects showcases my skills and experience through
@@ -92,7 +101,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20  max-w-[1153px] flex overflow-x-scroll md: flex-wrap gap-3">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
